@@ -13,5 +13,4 @@ ARG source
 WORKDIR /app
 EXPOSE 80 22
 COPY ${source:-obj/Docker/publish} .
-#RUN ["chmod", "+x", "entrypoint.sh"]
 ENTRYPOINT ["/usr/bin/supervisord"]
