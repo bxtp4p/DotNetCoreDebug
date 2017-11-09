@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  dotnetcoredebug:
+    image: dtr.prodevlife.com/samples/dotnetcoredebug
+    build:
+      context: ./DotNetCoreDebug
+      dockerfile: Dockerfile-remotedebug
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

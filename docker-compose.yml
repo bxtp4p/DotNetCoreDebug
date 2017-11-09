@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dotnetcoredebug:
+    image: dtr.prodevlife.com/dotnetcoredebug
+    build:
+      context: ./DotNetCoreDebug
+      dockerfile: Dockerfile
