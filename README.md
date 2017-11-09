@@ -1,5 +1,5 @@
 # DotNetCoreDebug
-Example for remote debugging .NET Core app.
+Example for remote debugging .NET Core app running in a Docker container.
 
 Using SSH to remote debug an ASP.NET core app. See the [Dockerfile-remotedebug](https://github.com/bxtp4p/DotNetCoreDebug/blob/master/DotNetCoreDebug/Dockerfile-remotedebug).
 
