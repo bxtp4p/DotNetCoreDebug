@@ -1,7 +1,7 @@
 # DotNetCoreDebug
 Example for remote debugging .NET Core app.
 
-Using SSH to remote debug an ASP.NET core app. See the `Dockerfile-remotedebug`.
+Using SSH to remote debug an ASP.NET core app. See the [Dockerfile-remotedebug](https://github.com/bxtp4p/DotNetCoreDebug/blob/master/DotNetCoreDebug/Dockerfile-remotedebug).
 
 
 The key piece is to install SSH server. Then you can use Visual Studio's "Debug > Attach to Process" and select "SSH" to debug.
